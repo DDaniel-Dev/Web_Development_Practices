@@ -1,9 +1,13 @@
 import './App.css';
+import React from 'react';
+import Navbar from './components/includes/Navbar';
+import Showcase from './components/includes/Showcase';
 
 function App() {
   return (
-    <div className="container">
-      <h1>Welcome to Bootstrap 5 with Traversy Media !</h1>
+    <div className="">
+      <Navbar/>
+      <Showcase/>
     </div>
   );
 }
