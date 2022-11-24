@@ -4,7 +4,7 @@ export default function Navbar() {
   return (
     <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3">
       <div className="container">
-        <a href="#" className="navbar-brand">Frontend with Bootstrap 5</a>
+        <a href="#" className="navbar-brand">Frontend Development</a>
         <button 
           type="button"
           className="navbar-toggler"
