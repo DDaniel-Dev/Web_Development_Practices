@@ -4,7 +4,7 @@ export default function Projects() {
   return (
     <section className="p-5">
       <div className="container">
-        <div className="row text-center">
+        <div className="row text-center g-4">
           <div className="col-md">
             <div className="card bg-dark text-light">
               <div className="card-body text-center">
