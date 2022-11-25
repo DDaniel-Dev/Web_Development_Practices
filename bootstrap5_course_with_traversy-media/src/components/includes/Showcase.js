@@ -13,7 +13,7 @@ export default function Showcase() {
             </p>
             <button className="btn btn-warning">My Journey</button>
           </div>
-          <img className="img-fluid w-50 d-none d-sm-block" src={DeveloperIcon} alt="Developer image"/>
+          <img className="img-fluid w-50 d-none d-sm-block" src={DeveloperIcon} alt="Developer"/>
         </div>
       </div>
     </section>
