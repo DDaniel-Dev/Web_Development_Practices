@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3">
+    <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top">
       <div className="container">
         <a href="#" className="navbar-brand">Frontend Development</a>
         <button 

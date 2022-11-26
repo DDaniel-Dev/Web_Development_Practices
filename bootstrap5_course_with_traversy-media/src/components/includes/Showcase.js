@@ -9,7 +9,7 @@ export default function Showcase() {
           <div>
             <h1>Daniel, the <span className="text-primary">Software Developer</span></h1>
             <p className="lead my-4">
-              I developed a website using the most demanded technologies with HTML, CSS, JavaScript, ReactJS & Bootstrap 5
+              Developed a website using the most demanded technologies with HTML, CSS, JavaScript, ReactJS & Bootstrap 5
             </p>
             <button className="btn btn-warning">My Journey</button>
           </div>

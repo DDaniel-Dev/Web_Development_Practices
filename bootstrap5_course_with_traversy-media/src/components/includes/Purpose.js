@@ -2,7 +2,7 @@ import React from "react";
 import FundamentalsImg from "../img/fundamentals.svg";
 import CappyClappy from "../img/cappyclappy.jpg"
 
-export default function Info() {
+export default function Purpose() {
   return (
   <>  
     <section id="info" className="p-5">
