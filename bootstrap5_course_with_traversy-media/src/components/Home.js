@@ -5,6 +5,7 @@ import Newsletter from "./includes/Newsletter";
 import Projects from "./includes/Projects";
 import Purpose from "./includes/Purpose";
 import CommonFAQ from "./includes/CommonFAQ";
+import Contact from "./includes/Contact";
 
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <Projects />
       <Purpose />
       <CommonFAQ />
+      <Contact />
     </>
   )
 };
