@@ -22,7 +22,7 @@ export default function Navbar() {
               <a href="#questions" className="nav-link">Projects</a>
             </li>
             <li className="nav-item">
-              <a href="#instructors" className="nav-link">Contact</a>
+              <a href="#contact" className="nav-link">Contact</a>
             </li>
           </ul>
         </div>

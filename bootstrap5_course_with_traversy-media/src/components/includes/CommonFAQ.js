@@ -51,8 +51,8 @@ export default function CommonFAQ() {
                 data-bs-parent="#questions"
               >
                 <div class="accordion-body">
-                  I was a small business owner of 5 Star Forever Nails in Austin, TX.
-                  We have been operating for over 4 years. And our annual sales are over 6 figures.
+                  I was a small business owner at 5 Star Forever Nails in Austin, TX.
+                  We have been serving our local for over 4 years.
                 </div>
               </div>
             </div>
@@ -98,7 +98,7 @@ export default function CommonFAQ() {
                 <div class="accordion-body">
                   <h2>Capybara</h2>
                   <hr/>
-                  <img className="img-fluid" src={SifuCapy}/>
+                  <img className="img-fluid rounded-circle" src={SifuCapy}/>
                 </div>
               </div>
             </div>

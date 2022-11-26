@@ -1,16 +1,16 @@
-import React from "react";
-import { useRef, useEffect, useState } from "react";
+import React, { useRef, useEffect, useState } from "react";
 import mapboxgl from "mapbox-gl";
 import "./util.css"
 
-mapboxgl.accessToken = 'pk.eyJ1IjoiZGRhbmllbDIyIiwiYSI6ImNsYXhlMXhlOTA4czEzcG05bnFiaGh5Y20ifQ.D18FdcGQFGcn8t5KEqaM8w';
+mapboxgl.accessToken = 
+  'pk.eyJ1IjoiZGRhbmllbDIyIiwiYSI6ImNsYXhlMXhlOTA4czEzcG05bnFiaGh5Y20ifQ.D18FdcGQFGcn8t5KEqaM8w';
 
 export default function Map() {
   const mapContainer = useRef(null);
     const map = useRef(null);
-    const [lng, setLng] = useState(30.2672);
-    const [lat, setLat] = useState(97.7431);
-    const [zoom, setZoom] = useState(18);
+    const [lng, setLng] = useState(-97.7460);
+    const [lat, setLat] = useState(30.2680);
+    const [zoom, setZoom] = useState(12.1);
 
   useEffect(() => {
     if (map.current) return;
@@ -23,11 +23,8 @@ export default function Map() {
   });
   
   return(
-    <>
-    <div 
-      ref={mapContainer} 
-      className="col-md map"
-    />
-    </>
-  )
+    <div className="col-md">
+      <div ref={mapContainer} className="map-container img-flex"/>
+    </div>
+  );
 };
