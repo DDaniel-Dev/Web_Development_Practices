@@ -6,6 +6,7 @@ import Projects from "./includes/Projects";
 import Purpose from "./includes/Purpose";
 import CommonFAQ from "./includes/CommonFAQ";
 import Contact from "./includes/Contact";
+import Footer from "./includes/Footer";
 
 
 export default function Home() {
@@ -18,6 +19,7 @@ export default function Home() {
       <Purpose />
       <CommonFAQ />
       <Contact />
+      <Footer />
     </>
   )
 };
