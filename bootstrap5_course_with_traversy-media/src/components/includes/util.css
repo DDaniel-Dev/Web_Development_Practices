@@ -4,6 +4,18 @@ body::before {
   height: 60px;
 }
 
+#projects::before {
+  display: block;
+  content: "";
+  height: 60px;
+}
+
+#questions::before {
+  display: block;
+  content: "";
+  height: 30px;
+}
+
 .map-container {
   width: 100%;
   height: 100%;

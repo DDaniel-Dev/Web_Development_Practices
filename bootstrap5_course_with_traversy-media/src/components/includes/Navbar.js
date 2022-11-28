@@ -16,10 +16,10 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navmenu">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a href="#learn" className="nav-link">My Journey</a>
+              <a href="#projects" className="nav-link">My Projects</a>
             </li>
             <li className="nav-item">
-              <a href="#questions" className="nav-link">Projects</a>
+              <a href="#questions" className="nav-link">FAQ</a>
             </li>
             <li className="nav-item">
               <a href="#contact" className="nav-link">Contact</a>

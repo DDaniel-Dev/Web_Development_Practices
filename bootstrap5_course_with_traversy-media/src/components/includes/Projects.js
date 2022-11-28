@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Projects() {
   return (
-    <section className="p-5">
+    <section id="projects" className="p-5">
       <div className="container">
         <div className="row text-center g-4">
           <div className="col-md">
