@@ -35,7 +35,7 @@ export default function Header() {
           {/* ===== navigation logo ===== */}
           <div className={`${styles.logo}`}>
             <h1 className="text-light">
-              <span>D</span>aniel
+              <span>D</span>aniel <span>D</span>
             </h1>
           </div>
         
